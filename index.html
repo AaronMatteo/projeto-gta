@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana do zero ao progrmador contratado - Lafing Page GTA</title>
+    <!--Logo na pagina-->
+    <link rel="shortcut icon" href="src/imagem/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/stayle.css">
+    <link rel="stylesheet" href="./src/css/fontes.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+
+<!-- on cabecalho -->
+    <header class="cabecalho">
+<!--div agrupar elementos juntos-->
+        <div class="logo"><!--on logo-->
+        <img src="./src/imagem/logo-rockstar.svg" alt="logo rockstar games">
+        <hr/>
+        <img src="./src/imagem/logo-gta.svg" alt="logo gta V">
+    </div><!--off logo-->
+
+    <nav><!--on menu-->
+        <ul class="menu">
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#comprar">Comprar</a>
+            </li>
+            <li>
+                <a href="https://support.rockstargames.com/categories/200013306" target="_blank" >Suporte <img src="./src/imagem/icone-link.svg" alt="icone de link de suporte"></a>
+            </li>
+        </ul>
+    </nav><!--off menu-->
+    </header><!--off header-->
+
+<!-- on home id= faz ir para a parte-->
+    <main class="home" id="home">
+        <img class="imagem-fundo" src="./src/imagem/bg-main.png" alt="rapaz de moleton laranja ao lado do carro">
+        <div class="informacoes">
+        <div class="lista-de-jogos">
+            <img src="./src/imagem/logo-gta-v.svg" alt="">
+            <img src="./src/imagem/logo-gta-online.svg" alt="gta online">
+        </div>
+            
+            <h1 class="titulo">Já disponivéis para playstation 5 e Xbox Series X|S</h1>
+            <p class="texto">
+                Experimente os fenomenos de entreterimento Grand Theft Auto V e GTA Online
+            </p>
+            <a class="btn-comprar" href="#comprar">Compre já</a>
+        </div>
+    
+    </main><!--off main-->
+
+<!-- on compre-ja id= faz ir para a parte-->
+    <section class="compre-ja" id="comprar">
+        <h2 class="titulo">Compre Já</h2>
+        <div class="cartao">
+            
+            <img class="capa-do-jogo" src="./src/imagem/gta5.jpg" alt="capa do jogo gta">
+<!--div.informacoes e enter-->
+            <div class="informacoes"><!--on informacoes-->
+            <h3>Grand Theft Auto 5</h3>
+            <p>
+                Inclui <strong>modo história do GTA V</strong> e <strong>GTA Online</strong>
+            </p>
+            <ul class="plataformas">
+<!--li*5-->
+                <li>
+                    <img src="./src/imagem/logo-ps5.svg" alt="logo playstation 5">
+                </li>
+                <li>
+                    <img src="./src/imagem/logo-xbox-series-s.svg" alt="logo xbox series x|s">
+                </li>
+                <li>
+                    <img src="./src/imagem/logo-ps4.svg" alt="logo playstation 4">
+                </li>
+                <li>
+                    <img src="./src/imagem/logo-xbox-one.svg" alt="logo xbox one">
+                </li>
+                <li>
+                    <img src="./src/imagem/logo-pc.svg" alt="logo pc">
+                </li>
+            </ul><!--off plataformas-->
+        </div><!--off informacoes-->
+
+        <buttom class="btn-plataforma">
+            Selecione a plataforma 
+            <ul class="plataformas ativo">
+                <!--li*5-->
+                <li>
+                    <img src="./src/imagem/logo-ps5.svg" alt="logo playstation 5">
+                </li>
+                <li>
+                    <img src="./src/imagem/logo-xbox-series-s.svg" alt="logo xbox series x|s">
+                </li>
+                <li>
+                    <img src="./src/imagem/logo-ps4.svg" alt="logo playstation 4">
+                </li>
+                <li>
+                    <img src="./src/imagem/logo-xbox-one.svg" alt="logo xbox one">
+                </li>
+                <li>
+                    <img src="./src/imagem/logo-pc.svg" alt="logo pc">
+                </li>
+            </ul><!--off plataformas-->
+        </buttom>
+
+        </div>
+    </section><!--off section-->
+
+
+
+<!--CHAMAR O JS-->
+<script src="./src/js/index.js"></script>
+
+</body>
+</html>
